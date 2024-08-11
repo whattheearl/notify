@@ -1,14 +1,12 @@
-# Elysia with Bun runtime
+# notify
+small service to send notifications
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
+## Development 
 ```bash
-bun create elysia ./elysia-example
-```
-
-## Development
-To start the development server run:
-```bash
+cp .env.example .env.local
+# add keys
+# https://discord.com/developers/applications/1256398835903627385/oauth2
+bun i
 bun run dev
 ```
 
